@@ -1,0 +1,107 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  height: 100%;
+  margin: 0;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-align-center {
+  align-self: center;
+}
+
+.bg-color {
+  background-color: #1d256d;
+}
+
+.border-radius {
+  border-radius: 10px;
+}
+
+.width-80 {
+  width: 80%;
+}
+
+.container {
+  background-image: url(bg-mobile.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.fylo-options {
+  margin-top: 30%;
+  width: 90%;
+  min-height: 200px;
+  border-radius: 10px 100px 10px 10px;
+}
+
+.logo {
+  height: 50%;
+  padding-top: 25px;
+}
+
+.options-icons {
+  height: 50%;
+  padding-bottom: 30px;
+}
+
+.icons {
+  width: 50px;
+  height: 50px;
+  background-color: #050829;
+  justify-content: center;
+  margin-right: 15px;
+}
+
+.storage-info {
+  margin-top: 20px;
+  width: 90%;
+  height: 160px;
+  justify-content: center;
+  color: whitesmoke;
+}
+
+.info-text {
+  text-align: center;
+}
+
+.storage-space-text {
+  justify-content: space-between;
+}
+
+.storage-alert {
+  width: 50%;
+  height: 76px;
+  background-color: whitesmoke;
+  color: black;
+  z-index: 2;
+  margin-top: -38px;
+  justify-content: center;
+}
+
+.storage-alert-texts {
+  align-items: center;
+}
+
